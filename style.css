@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root{
+    --primary-color: #1f2937;
+    --secondary-color: #6EE7B7;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family:'Roboto Mono', monospace;;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+input, label{
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+#check-number:hover{
+    color:white;
+}
