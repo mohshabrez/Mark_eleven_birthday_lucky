@@ -8,7 +8,9 @@
 body{
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    font-family:'Roboto Mono', monospace;;
+    font-family:'Roboto Mono', monospace;
+    width: 80%;
+    margin: 8rem auto;
 }
 
 h1{
@@ -17,13 +19,16 @@ h1{
 
 .container{
     width: 50%;
-    margin: auto;
+    margin:  8px auto;
+    gap:2px;
+
 }
 
 input, label{
     display: block;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    gap:2px;
 }
 
 input{
@@ -34,7 +39,7 @@ input{
 
 #check-number{
     display: block;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin: auto;
     background: transparent;
     color: var(--secondary-color);
@@ -49,6 +54,10 @@ input{
     color:white;
 }
 
+#output-box{
+    display: flex;
+    flex-direction: column;
+}
 footer{
     text-align: center;
 }
@@ -64,6 +73,7 @@ footer p{
 
 a, img, li{
     display: inline;
+    margin-right: 6px;
 }
 
 a{
